@@ -2,6 +2,8 @@
 
 The goal of this challenge is to test the applicant's knowledge of APIs, Rails, and data processing. The _endpoint_ is described below along with the _requirements_ of this challenge.
 
+Please keep in mind that it's important not only to complete the challenge, but to organize your code in a clear way, that other developers may at some point need to maintain it, and they'll want to be sure that their changes haven't broken anything.
+
 ## Endpoint
 
 Paginated data can be fetched via a GET request to the following URL: [https://fg-challenge-api.herokuapp.com/orders?page=1](https://fg-challenge-api.herokuapp.com/orders?page=1). Each subsequent page can be reached by increasing the page query parameter until the result is an empty array.
